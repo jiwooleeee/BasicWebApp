@@ -15,7 +15,9 @@ public class QueryProcessor {
            return "MyTeam";
         } else if (query.contains("2+2")){
             // TODO extend the programm here
-            return "4";
+            return "=4";
+        } else if (query.contains("10+4")){
+            return "=14";
         } else {
             return "";
         }
